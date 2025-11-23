@@ -111,7 +111,8 @@ $
 	4개를 1개로 표현한 식: $partial_mu F^(mu nu) = - mu j^nu$  
 
 == 미세 구조 상수의 공식
-#let hbar = text(font: "Linux Libertine", style: "italic")[\u{0127}]
+#let hbar = $text(font: "New Computer Modern", style: "italic",#scale(x: 108%,"\u{0127}")) #h(0.025cm)$
+
 $
   alpha = e^2 / (4 pi epsilon_0 hbar c)  tilde.eq 1 / 137.036
 $	
